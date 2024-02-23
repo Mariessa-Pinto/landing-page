@@ -7,27 +7,27 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className={`flex min-h-screen flex-col items-center justify-between`}>
+    <main className={`flex min-h-screen flex-col items-center justify-between bg-circle bg-no-repeat bg-top-right`}>
       <Header />
-      <div>
+      <div className={`w-9/12 flex items-start py-32`}>
         <IntroCard />
       </div>
-      <div>
-        <h2>How You Can Help</h2>
-        <div>
-          <PriceCard item='Gain Clarity' description='InnerSight is tailored to individuals with Generalized Anxiety Disorder, helping you untangle the web of your thoughts, feelings, and daily experiences.' price='$19.99' />
-          <PriceCard item='Gain Clarity' description='InnerSight is tailored to individuals with Generalized Anxiety Disorder, helping you untangle the web of your thoughts, feelings, and daily experiences.' price='$19.99' />
-          <PriceCard item='Gain Clarity' description='InnerSight is tailored to individuals with Generalized Anxiety Disorder, helping you untangle the web of your thoughts, feelings, and daily experiences.' price='$19.99' />
+      <div className={`w-9/12 py-32`}>
+        <h2 className={`font-outfit text-h2 font-bold text-white pb-5`}>How You Can Help</h2>
+        <div className={`flex flex-row items-center justify-center gap-5`}>
+          <PriceCard item='Throw Charlie a Bone' description='InnerSight is tailored to individuals with Generalized Anxiety Disorder, helping you untangle the web of your thoughts, feelings, and daily experiences.' price='$19.99' />
+          <PriceCard item='Feed Spot' description='InnerSight is tailored to individuals with Generalized Anxiety Disorder, helping you untangle the web of your thoughts, feelings, and daily experiences.' price='$79.99' />
+          <PriceCard item='Help Max Sleep' description='InnerSight is tailored to individuals with Generalized Anxiety Disorder, helping you untangle the web of your thoughts, feelings, and daily experiences.' price='$119.99' />
         </div>
       </div>
-      <div>
-        <h2>Features</h2>
+      <div className={`w-9/12 py-32`}>
+        <h2 className={`font-outfit text-h2 font-bold text-white pb-5`}>Features</h2>
         <div>
           <Features />
         </div>
       </div>
-      <div>
-        <h2>Keep Up With Rescue Radar</h2>
+      <div className={`w-9/12 py-32`}>
+        <h2 className={`font-outfit text-h2 font-bold pb-5`}>Keep Up With Rescue Radar</h2>
         <div>
           <SignUp />
         </div>

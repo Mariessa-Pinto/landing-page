@@ -17,13 +17,13 @@ export default function Footer() {
                     width={40}
                     height={37}
                 />
-                <p>©Mariessa Pinto {currentYear}</p>
+                <p className={`ml-2 font-outfit text-base`}>©Mariessa Pinto {currentYear}</p>
             </div>
             <div className={`flex flex-row gap-20`}>
-                <Link href={'https://github.com/Mariessa-Pinto/rescue-radar'}>Rescue Radar Web App</Link>
-                <p>Cookie Policy</p>
-                <p>Privacy Policy</p>
-                <p>User Agreement</p>
+                <Link href={'https://github.com/Mariessa-Pinto/rescue-radar'} className={`font-outfit text-base`}>Rescue Radar Web App</Link>
+                <p className={`font-outfit text-base`}>Cookie Policy</p>
+                <p className={`font-outfit text-base`}>Privacy Policy</p>
+                <p className={`font-outfit text-base`}>User Agreement</p>
             </div>
         </footer>
     )

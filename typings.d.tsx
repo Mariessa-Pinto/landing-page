@@ -3,6 +3,7 @@ interface IButton {
     link: string;
     border: string;
     bg: string;
+    txt: string;
 }
 
 interface IPriceCard {
