@@ -15,9 +15,9 @@ export default function Home() {
       <div className={`w-9/12 py-32`}>
         <h2 className={`font-outfit text-h2 font-bold text-white pb-5`}>How You Can Help</h2>
         <div className={`flex flex-row items-center justify-center gap-5`}>
-          <PriceCard item='Throw Charlie a Bone' description='InnerSight is tailored to individuals with Generalized Anxiety Disorder, helping you untangle the web of your thoughts, feelings, and daily experiences.' price='$19.99' />
-          <PriceCard item='Feed Spot' description='InnerSight is tailored to individuals with Generalized Anxiety Disorder, helping you untangle the web of your thoughts, feelings, and daily experiences.' price='$79.99' />
-          <PriceCard item='Help Max Sleep' description='InnerSight is tailored to individuals with Generalized Anxiety Disorder, helping you untangle the web of your thoughts, feelings, and daily experiences.' price='$119.99' />
+          <PriceCard item='Throw Charlie a Bone' description="Support Charlie's happiness with a bone purchase! Charlie, a lovable two-year-old German Shepherd in shelter care, eagerly awaits a tasty treat. Your donation ensures Charlie and other shelter dogs receive love and care." price='$19.99' />
+          <PriceCard item='Feed Spot' description="Help nourish Spot and friends with a food purchase! Spot, a furry companion in shelter care, relies on your support for meals and well-being. Your donation ensures shelters can provide essential sustenance to animals awaiting adoption." price='$79.99' />
+          <PriceCard item='Help Max Sleep' description="Provide Max with a cozy retreat by purchasing a crate! Max, a precious companion in shelter care, seeks comfort and security. Your donation enables shelters to offer cozy sleeping arrangements to animals like Max, ensuring they feel safe and relaxed while awaiting their furever homes." price='$119.99' />
         </div>
       </div>
       <div className={`w-9/12 py-32`}>
