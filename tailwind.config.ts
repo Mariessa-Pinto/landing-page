@@ -40,6 +40,9 @@ const config: Config = {
       width: {
         'intro': '739px',
         'price': '465px',
+      },
+      height: {
+        '700': '700px',
       }
     },
   },

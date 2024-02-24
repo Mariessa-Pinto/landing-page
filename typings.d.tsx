@@ -10,4 +10,5 @@ interface IPriceCard {
     item: string;
     description: string;
     price: string;
+    spline: string;
 }
