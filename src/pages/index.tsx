@@ -8,14 +8,17 @@ import Spline from '@splinetool/react-spline';
 
 export default function Home() {
   return (
-    <main className={`flex min-h-screen flex-col items-center justify-between bg-circle bg-no-repeat bg-top-right`}>
+    <main className={`flex min-h-screen flex-col items-center justify-between bg-circle bg-no-repeat bg-top-right lg:bg-top-right-lg lg:bg-100%`}>
       <Header />
-      <div className={`w-9/12 flex items-start py-32`}>
+      <div className={`w-11/12 lg:w-9/12 flex flex-col-reverse lg:flex-row md:items-center justify-between pb-10 pt-10 lg:pb-28 lg:pt-32`}>
         <IntroCard />
+        <div className={`hidden md:block lg:pt-5`}>
+          <Spline scene="https://prod.spline.design/qFuStBSM4XEI-iRT/scene.splinecode" />
+        </div>
       </div>
-      <div className={`w-9/12 py-32`}>
-        <h2 className={`font-outfit text-h2 font-bold text-white pb-5`}>How You Can Help</h2>
-        <div className={`flex flex-row items-center justify-center gap-5`}>
+      <div className={`w-11/12 lg:w-9/12 py-10 lg:py-28`}>
+        <h2 className={`font-outfit text-h2 font-bold text-black lg:text-white pb-5`}>How You Can Help</h2>
+        <div className={`flex flex-col lg:flex-row items-center justify-center gap-5`}>
           <PriceCard 
             spline="https://prod.spline.design/fzHKH8sqfVRvzcFl/scene.splinecode"       
             item='Throw Charlie a Bone' 
@@ -36,13 +39,13 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className={`w-9/12 py-32`}>
-        <h2 className={`font-outfit text-h2 font-bold text-white pb-5`}>Features</h2>
+      <div className={`w-11/12 lg:w-9/12 py-10 lg:py-28`}>
+        <h2 className={`font-outfit text-h2 font-bold pb-5`}>Features</h2>
         <div>
           <Features />
         </div>
       </div>
-      <div className={`w-9/12 py-32`}>
+      <div className={`w-11/12 py-10 lg:w-9/12 lg:pb-28 lg:pt-20`}>
         <h2 className={`font-outfit text-h2 font-bold pb-5`}>Keep Up With Rescue Radar</h2>
         <div>
           <SignUp />

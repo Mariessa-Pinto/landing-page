@@ -23,12 +23,13 @@ const config: Config = {
         'cover': 'cover',
         'contain': 'contain',
         '40%': '40%',
-            '90%': '90%',
+        '90%': '90%',
+        '100%': '100%',
       },
       backgroundPosition: {
         'top-right': 'calc(0%) 0px',
         'top-right-md': 'calc(100%) 160px',
-        'top-right-lg': 'calc(100%) 10px',
+        'top-right-lg': 'calc(100%) 00px',
       },
       fontSize: {
         base: '16px',

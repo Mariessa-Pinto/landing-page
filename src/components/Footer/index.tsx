@@ -9,8 +9,8 @@ export default function Footer() {
         setCurrentYear(new Date().getFullYear());
     }, []);
     return (
-        <footer className={`w-9/12 flex flex-row items-center justify-between`}>
-            <div className={`flex flex-row items-center`}>
+        <footer className={`w-11/12 items-end lg:w-9/12 flex flex-row lg:items-center justify-between pb-1`}>
+            <div className={`flex flex-col items-start lg:flex-row lg:items-center`}>
                 <Image
                     src={'/images/logo.svg'}
                     alt="logo"
@@ -19,7 +19,7 @@ export default function Footer() {
                 />
                 <p className={`ml-2 font-outfit text-base`}>©Mariessa Pinto {currentYear}</p>
             </div>
-            <div className={`flex flex-row gap-20`}>
+            <div className={`flex flex-col md:flex-row md:gap-3 lg:gap-20`}>
                 <Link href={'https://github.com/Mariessa-Pinto/rescue-radar'} className={`font-outfit text-base`}>Rescue Radar Web App</Link>
                 <p className={`font-outfit text-base`}>Cookie Policy</p>
                 <p className={`font-outfit text-base`}>Privacy Policy</p>
